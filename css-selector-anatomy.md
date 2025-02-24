@@ -1,7 +1,10 @@
 # Anatomy of a CSS Selector
 ![banner-cat-on-laptop](https://images.unsplash.com/photo-1634838037553-66f5ce322212?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
+## What is CSS?
+CSS is a style sheet language that lets us selectively style HTML elements, such as changing the font color to red, modifying the font family, and much more!
 ## How does it work?
+
 ### Structure:
 ``` css
 selector {
@@ -18,7 +21,7 @@ p {
 ```
 | Component | Description |
 | --------- | ----------- |
-| **Selector** | The HTML element to be styled. <br> *Examples*: `<body>`, `<main>`, `<div>`, `<span>`|
+| **Selector** | The HTML element to be styled. <br>*Examples*: `<body>`, `<main>`, `<div>`, `<span>`|
 | **Declaration** | The property-value pair defining the style. <br>*Examples*: `color: red`, `font-family: sans-serif`|
 | **Properties** | The aspects of the HTML element to be styled, such as color, font family, and font size. <br> *Examples*: `color`, `font-family`, `font-size` |
 | **Property Value** | Specifies the style applied to the property. <br>*Examples*: `red`, `12px`, `sans-serif`|
