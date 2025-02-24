@@ -1,5 +1,5 @@
 # Writing a Function in JavaScript
-
+![banner-cat-looking-at-screen](https://images.unsplash.com/photo-1709547228697-fa1f424a3f39?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 ## 1. Basic syntax
@@ -14,7 +14,7 @@ The function name: The name you choose for the function.
 - **The arrow syntax**: Indicates that this will be a function.
 - **The body**: The statements that make up the function itself. Surrounded by curly braces.
 
-**Example**:
+*Example*:
 
 ```javascript
 const greet = (name) => {
@@ -22,13 +22,13 @@ const greet = (name) => {
 }
 ```
 
-**Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+> **Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
 ## 2. Calling a function
 
 To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
 
-**Example**:
+*Example*:
 
 `greet('Alice'); // Outputs: Hello, Alice!`
 
@@ -36,7 +36,7 @@ To execute the function, you *call* or *invoke* it by using its name followed by
 
 Functions can process data input and output a value using the *return* keyword.
 
-**Example**: 
+*Example*: 
 
 ```javascript
 const addNums = (numA, numB) => {
