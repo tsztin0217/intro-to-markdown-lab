@@ -6,7 +6,7 @@
 ``` css
 selector {
     property1: value;
-    property2; value;
+    property2: value;
 }
 ```
 ### Example:
@@ -18,10 +18,13 @@ p {
 ```
 | Component | Description |
 | --------- | ----------- |
-| **Selector** | The HTML element's name to be styled. <br> *Examples*: `<body>`, `<main>`, `<div>`, `<span>`|
-| **Declaration** | The property-value pair. <br>*Examples*: `color: red`, `font-family: sans-serif`|
-| **Properties** | The element(s) of the HTML element to be styled, such as color, font family, font size, etc. <br> *Examples*: `color`, `font-family`, `font-size` |
-| **Property value** | Sepcifies the appearance to be assigned to the property. <br>*Examples*: `red`, `12px`, `sans-serif`|
-> ***Additional notes on the syntax***: <br> All declaration must be wrapped in curly braces (`{}` ). *Colon (`:`)* is used for separating each property from its value, while *semicolon (`;`)*.
+| **Selector** | The HTML element to be styled. <br> *Examples*: `<body>`, `<main>`, `<div>`, `<span>`|
+| **Declaration** | The property-value pair defining the style. <br>*Examples*: `color: red`, `font-family: sans-serif`|
+| **Properties** | The aspects of the HTML element to be styled, such as color, font family, and font size. <br> *Examples*: `color`, `font-family`, `font-size` |
+| **Property Value** | Specifies the style applied to the property. <br>*Examples*: `red`, `12px`, `sans-serif`|
+#### ***Additional notes on syntax***: 
+- All declarations must be wrapped in curly braces (`{}` ).
+- *Colon (`:`)* separates each property from its value.
+- *Semicolon (`;`)* is required at the end of each declaration.
 
 Reference: [CSS: Styling the content | MDN Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content)
