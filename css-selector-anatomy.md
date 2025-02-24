@@ -26,7 +26,7 @@ p {
 | **Properties** | The aspects of the HTML element to be styled, such as color, font family, and font size. <br> *Examples*: `color`, `font-family`, `font-size` |
 | **Property Value** | Specifies the style applied to the property. <br>*Examples*: `red`, `12px`, `sans-serif`|
 #### ***Additional notes on syntax***: 
-- All declarations must be wrapped in curly braces (`{}` ).
+- All declarations must be wrapped in *curly braces* (`{}` ).
 - *Colon (`:`)* separates each property from its value.
 - *Semicolon (`;`)* is required at the end of each declaration.
 
